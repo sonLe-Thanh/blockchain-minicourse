@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createRandom",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "finish",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/aliceBob.sol": "aliceBob"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/aliceBob.sol": {
+			"keccak256": "0x5ad79802c43bbc26073ad0b4830ea2b71d83b6efb6f5d10272dbb26cc0c19266",
+			"urls": [
+				"bzz-raw://97a7406c2b60294e567914dc28f62bed7da129c26bfafc06bc1cbc2427a8dfe5",
+				"dweb:/ipfs/Qmd5QAZjiNTjG9X9ZkiR3nWdskFdEAUqjx54T7BMd5NzWR"
+			]
+		}
+	},
+	"version": 1
+}
